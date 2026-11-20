@@ -1,0 +1,16 @@
+1.Choose a process (for example, one of those seen in class: student careers, order handling, patient treatment…) and build an event log with the following characteristics:
+1. At least 20 variants;
+2. At least 100 tracks (NB if you choose exactly 100 tracks, the frequency of each variant must not be uniform, that is, each variant must not appear 5 times.).
+    2. Using pm4py, design a statistical report that calculates:
+        1. How many traces are present in the log;
+        2. How many events are present in the log;
+        3. The average, minimum and maximum number of events per track;
+        4. The frequency with which a track starts and ends.
+    3. Given the event log just built, draw by hand:
+        1. A Petri net with very high fitness
+        2. A Petri net with very high precision
+    4. Draw the newly built networks with pm4py (or, if you prefer another tool like Woped), check their soundness and calculate: fitness, precision, generalization and simplicity against the log.
+5. Using the algorithm “inductive miner”, mine 4 Petri nets by varying the noise_threshold parameter to: 0, 0.2, 0.7, 1. Are the extracted networks sound? How do their metrics vary with respect to the log (fitness, precision, generalization, and simplicity)?
+6. Choosing a log trace that represents the least frequent variant and calculating the alignment with respect to the 4 models built: how do anomalies change?
+7. Writing a prompt to input to an LLM (e.g. OpenAI models) to build a Petri net given the input log: what are the differences compared to models built with inductive miners?
+
