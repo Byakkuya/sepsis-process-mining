@@ -66,6 +66,9 @@ The selected log contains 11 activities: `Admission NC`, `CRP`, `ER Registration
 
 ## 3. Hand-drawn Petri nets
 
+for better quality the draws are also in this link : 
+https://excalidraw.com/#json=9OFWZe4r9i07MSfGp5t2G,LmWsnf8jL2oakFJf0CYTzg
+
 The two hand-drawn models are in [`task 3.png`](task%203.png). The drawing can be edited in [Excalidraw](https://excalidraw.com/#json=UdAXlOm1TD1ZM523sgpKR,t_xllpRU_A1fS0mW1JzCXQ).
 
 - The **high-precision net** models only observed sequences, with separate branches for distinct treatment paths.
